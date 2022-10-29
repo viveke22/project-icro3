@@ -1,3 +1,27 @@
-@media {
-    
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+
+@media only screen and(max-width: 600px){
+
+}
+
+#navbar{
+    float: left;
+    left: 0;
+    clear: both;
+    height: 100%;
+    width: 30%;
+    overflow-y: auto;
+
+}
+
+#main-doc{
+    float: right;
+    right: 0;
+    width: 70%;
 }
